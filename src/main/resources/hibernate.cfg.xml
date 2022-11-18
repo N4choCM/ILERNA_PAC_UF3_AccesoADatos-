@@ -9,5 +9,10 @@
         <property name="connection.url">jdbc:mysql://127.0.0.1:3306/m06</property>
         <property name="connection.username">ilerna</property>
         <property name="connection.password">Ilerna_1234</property>
+
+        <mapping resource="alumno.hbm.xml"/>
+        <mapping resource="modulo.hbm.xml"/>
+        <mapping resource="profesor.hbm.xml"/>
+
     </session-factory>
 </hibernate-configuration>
